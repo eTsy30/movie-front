@@ -1,0 +1,39 @@
+.card {
+  position: relative;
+
+  overflow: hidden;
+  .card_container {
+    width: 250px;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h4 {
+    margin: 8px 0px;
+    width: 100%;
+    color: aliceblue;
+  }
+  .card_title-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #213547;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.card_buttonGroup {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0;
+  button {
+    background: none;
+    i {
+      color: aliceblue;
+      font-weight: 600;
+      font-size: 25px;
+    }
+  }
+}

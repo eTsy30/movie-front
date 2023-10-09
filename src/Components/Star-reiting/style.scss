@@ -1,0 +1,17 @@
+.starRating_wrapper {
+  display: flex;
+
+  .star {
+    cursor: pointer;
+    transition: color 0.2s;
+
+    &.active {
+      color: #ffbc1f;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
